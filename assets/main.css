@@ -14,3 +14,13 @@
 .sidebar {
 	grid-area: sidebar;
 }
+
+@media all and (max-width : 720px) {
+	.container {
+		grid-template-columns: 100%;
+		grid-template-areas:
+			'sidebar'
+			'main';
+		padding: 5px;
+	}
+}
