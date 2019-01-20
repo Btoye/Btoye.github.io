@@ -25,9 +25,8 @@
 	.container {
 		grid-template-columns: 100%;
 		grid-template-areas:
-			'sidebar'
-			'main'
-			'contact';
+			'sidebar contact'
+			'main';
 		padding: 5px;
 	}
 }
