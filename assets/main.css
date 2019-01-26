@@ -16,10 +16,12 @@
 
 .sidebar {
 	grid-area: sidebar;
+	text-align: center;
 }
 
 .contact {
 	grid-area: contact;
+	text-align: center;
 }
 
 @media all and (max-width : 932px) {
@@ -30,5 +32,9 @@
 			'main'
 			'contact';
 		padding: 5px;
+	}
+
+	.main h2 {
+		text-align: center;
 	}
 }
